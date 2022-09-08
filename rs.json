@@ -1,0 +1,9 @@
+{
+  "Session": "123456789",
+  "ResponseID": "6666666",
+  "QueryResult": {
+	  "Intent": {
+		  "DisplayName": "get-agent-name"
+	  }
+  }
+}
