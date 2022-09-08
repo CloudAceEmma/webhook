@@ -1,0 +1,3 @@
+#!/bin/bash
+goruntime=go116
+gcloud functions deploy HandleWebhookRequest --runtime $goruntime --trigger-http --allow-unauthenticated
