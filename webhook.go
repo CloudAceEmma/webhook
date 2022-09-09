@@ -147,7 +147,7 @@ func getAgentName(request webhookRequest) (webhookResponse, error) {
 
 // weather creates a response for the weather intent.
 func weatherQuery(request webhookRequest) (webhookResponse, error) {
-	api_key := "afbdca0d189a0c203fcef59158f20cd0"
+	api_key := "xxxxxxxxxxx"
 	city := request.QueryResult.Parameters.Location.City
 	url := "http://api.openweathermap.org/geo/1.0/direct?q=" + city + "&limit=1&appid=" + api_key
 	var locationmessages []locationMessages
